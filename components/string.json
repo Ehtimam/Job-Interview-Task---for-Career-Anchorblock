@@ -1,0 +1,65 @@
+{
+    "input_placeholders": [{
+            "name": "email",
+            "label": "@",
+            "placeholder": "    @ Your Email",
+            "id": "email",
+            "type": "text",
+            "value": "email"
+        },
+
+        {
+            "name": "username",
+            "label": ":)",
+            "placeholder": "    :) Your Name",
+            "id": "username",
+            "type": "text",
+            "value": "username"
+        },
+        {
+            "name": "password",
+            "label": "#",
+            "placeholder": "    Create Password",
+            "id": "password",
+            "type": "password",
+            "value": "password"
+        }
+    ],
+
+    "login_placeholders": [{
+            "name": "uemail",
+            "label": "@",
+            "placeholder": "    @ Your Email",
+            "id": "uemail",
+            "type": "text",
+            "value": "email"
+        },
+        {
+            "name": "upassword",
+            "label": "#",
+            "placeholder": "    Create Password",
+            "id": "upassword",
+            "type": "password",
+            "value": "password"
+        }
+    ],
+    "button_inputs": [{
+        "name": "custom-button",
+        "type": "submit",
+        "color": "#F0F5FA"
+
+    }],
+
+    "search": [{
+            "type": "text"
+
+        },
+        {
+            "type": "button"
+        },
+        {
+            "type": "submit"
+        }
+
+    ]
+}

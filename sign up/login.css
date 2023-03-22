@@ -1,0 +1,201 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #a4adb5;
+    --accent-color: #ffc107;
+    --bg-color: #ffffff;
+    --text-color: #212529;
+}
+
+#google_apple_buttons {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+#padding_top_of_the_container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--bg-color);
+}
+
+#container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 1000px;
+    position: relative;
+    background-color: var(--bg-color);
+    padding: auto;
+    border-radius: 2%;
+}
+
+#goo_app {
+    display: inline-flex;
+    background-color: rgb(120, 156, 156);
+}
+
+.head {
+    display: inline-flex;
+    padding-bottom: 100px;
+}
+
+#google {
+    padding-right: 5px;
+}
+
+#apple {
+    padding-left: 5px;
+}
+
+
+/*This two colour is for getting started and its next line*/
+
+h2 {
+    color: #323B4B;
+}
+
+.for_a_single_line {
+    color: #8A94A6;
+}
+
+
+/* From here button components are designed*/
+
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 10px;
+    font-weight: bold;
+    color: #8A94A6;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    width: 265px;
+    height: 58px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.primary-button {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    padding-top: 10px;
+    width: 540px;
+    height: 58px;
+}
+
+#buttontextalligned {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-logo {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.apple-logo {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.checkbox {
+    padding-bottom: 20px;
+    padding-right: 278px;
+}
+
+.sign_up_button {
+    padding-bottom: 20px;
+}
+
+
+/* From here button components design ended*/
+
+.lining {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+.word {
+    font-size: 24px;
+    color: var(--secondary-color);
+    padding-bottom: 10px;
+}
+
+
+/* From here form component is updated*/
+
+#username {
+    width: 540px;
+    height: 58px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    border: 1px solid #F3F3F3;
+}
+
+#username:focus {
+    outline: 2px solid orange;
+}
+
+#email {
+    width: 540px;
+    height: 58px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    border: 1px solid #F3F3F3;
+}
+
+#email:focus {
+    outline: 2px solid orange;
+}
+
+#password {
+    width: 540px;
+    height: 58px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    border: 1px solid #F3F3F3;
+}
+
+#password:focus {
+    outline: 2px solid orange;
+}
+
+
+/*  nav bar*/
+
+.sign_in {
+    width: 100px;
+    height: 30px;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+.sign_in:hover {
+    background-color: var(--bg-color)
+}

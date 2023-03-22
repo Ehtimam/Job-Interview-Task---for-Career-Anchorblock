@@ -1,0 +1,150 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #a4adb5;
+    --accent-color: #ffc107;
+    --bg-color: #ffffff;
+    --text-color: #212529;
+}
+
+.mainbody {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--accent-color);
+}
+
+.dashboard {
+    width: 15%;
+    height: 100%;
+    background-color: var(--bg-color);
+    border-right: 1px solid #B0B7C3;
+}
+
+.smallbody {
+    width: 85%;
+    height: 100%;
+    background-color: var(--bg-color);
+}
+
+.nav_area {
+    width: 100%;
+    overflow: hidden;
+}
+
+.search_area1 {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.search_form {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.search {
+    width: 90%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border: 1px solid #F0F5FA;
+    background-color: #F0F5FA;
+    color: #B0B7C3;
+}
+
+.search_button {
+    width: 10%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #F0F5FA;
+    background-color: #F0F5FA;
+    color: #B0B7C3;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.profile_area {
+    display: flex;
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.blank {
+    width: 430px;
+    height: 30px;
+}
+
+.notification {
+    width: 80px;
+    height: 50px;
+    border-radius: 16px;
+    border: 1px solid #ffff;
+    cursor: pointer;
+}
+
+.bell_icon:focus {
+    color: #a4adb5;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    border: 1px solid #F0F5FA;
+    margin-left: 70px;
+}
+
+.profile_pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    border: 1px solid #F0F5FA;
+}
+
+
+/* Sidebar Area of CSS editing */
+
+.sidebar {
+    width: 100%;
+    height: 100%;
+}
+
+.page_name {
+    width: 100%;
+    height: 15%;
+}
+
+.stack_home {
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.col {
+    text-align: start;
+    position: absolute;
+    width: 43px;
+    height: 15px;
+    left: 34px;
+    top: 117px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 0.07em;
+}

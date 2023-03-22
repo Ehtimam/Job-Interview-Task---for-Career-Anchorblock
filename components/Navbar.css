@@ -1,0 +1,58 @@
+nav {
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li.right {
+    float: right;
+    /* position the "About" link on the right side */
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #8A94A6;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 16px;
+    width: 146px;
+    height: 43px;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+.locale {
+    margin-right: 500px;
+    background-color: #F0F5FA;
+    margin-top: 30px;
+}
+
+a:hover {
+    background-color: var(--bg-color);
+}
+
+.locale {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    color: #8A94A6;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 146px;
+    height: 43px;
+}
